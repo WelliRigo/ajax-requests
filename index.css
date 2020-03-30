@@ -1,0 +1,29 @@
+body{
+    background: #1abc9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body form *{
+    display: block;
+    text-align: center;
+}
+body form input{
+    height: 7vh;
+    font-size: 1.5em;
+    margin-top: 5vh;
+    border-radius: 5%;
+    border: none;
+}
+button{
+    margin: 5vh auto 0 auto;
+    padding: 2vh 2vw 2vh 2vw;
+    border-radius: 8%;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: grey;
+}
+button:hover{
+    background: #2c3e50;
+}
